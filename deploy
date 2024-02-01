@@ -1,0 +1,5 @@
+#!/bin/dash
+
+NAME="root"
+DOMAIN="stephall.sh"
+rsync -avz . "root@$DOMAIN:/www/"
