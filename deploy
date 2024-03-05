@@ -1,5 +1,5 @@
-#!/bin/dash
+#!/bin/zsh
 
-NAME="root"
-DOMAIN="stephall.sh"
-rsync -avz . "root@$DOMAIN:/www/"
+cd HTML
+git push -u main
+cd ..
